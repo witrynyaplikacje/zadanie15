@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Czeszejko-Sochacli</title>
+</head>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color:#00FFFF;">
+
+    <h1 align="center">
+        <font size="30px">Ocena obsługi klienta sieci sklepów Podgrzybek</font>
+    </h1>
+
+    <form action="post" align="left">
+        <font size="6rem">
+
+            <input type="text" name="id" id="1" style="height: 1.7rem; vertical-align: middle;"> Numer służbowy
+            kasjera/ki
+            <br>
+            <br>
+
+            <input type="number" name="code" id="2" style="height: 1.7rem; vertical-align: middle;"> Kod z paragonu
+            <br>
+            <br>
+
+            <select name="shop" id="3" style="height: 1.7rem; vertical-align: middle;">
+                <option value="gdansk">Podgrzybek ul. Reja 25</option>
+                <option value="gdynia">Podgrzybek CH Riviera</option>
+                <option value="sopot">Podgrzybek Sopot (Molo)</option>
+            </select> Sklep w którym byłeś/aś
+
+            <br>
+            <br>
+
+            <hr />
+            <div style="position: relative; top: -2.8rem; background-color: white; width: fit-content; padding-right: 15px;">Ocena sklepu
+            </div>
+
+            <p>W skali od 1 do 10, jak ocenia pan/pani higienę sklepu?</p>
+
+            <input type="radio" name="higiene_1" id="4">
+            <label for="higiene_1">1</label>
+
+            <input type="radio" name="higiene_2" id="5">
+            <label for="higiene_2">2</label>
+
+            <input type="radio" name="higiene_3" id="6">
+            <label for="higiene_3">3</label>
+
+            <input type="radio" name="higiene_4" id="7">
+            <label for="higiene_4">4</label>
+
+            <input type="radio" name="higiene_5" id="8">
+            <label for="higiene_5">5</label>
+
+            <input type="radio" name="higiene_6" id="9">
+            <label for="higiene_6">6</label>
+
+            <input type="radio" name="higiene_7" id="10">
+            <label for="higiene_7">7</label>
+
+            <input type="radio" name="higiene_8" id="11">
+            <label for="higiene_8">8</label>
+
+            <input type="radio" name="higiene_9" id="12">
+            <label for="higiene_9">9</label>
+
+            <input type="radio" name="higiene_10" id="13">
+            <label for="higiene_10">10</label>
+
+            <br>
+
+            <p>W skali od 1 do 10, jak ocenia pan/pani poziom zaopatrzenia sklepu?</p>
+
+            <input type="radio" name="level_of_supply_1" id="14">
+            <label for="level_of_supply_1">1</label>
+
+            <input type="radio" name="level_of_supply_2" id="15">
+            <label for="level_of_supply_2">2</label>
+
+            <input type="radio" name="level_of_supply_3" id="16">
+            <label for="level_of_supply_3">3</label>
+
+            <input type="radio" name="level_of_supply_4" id="17">
+            <label for="level_of_supply_4">4</label>
+
+            <input type="radio" name="level_of_supply_5" id="18">
+            <label for="level_of_supply_5">5</label>
+
+            <input type="radio" name="level_of_supply_6" id="19">
+            <label for="level_of_supply_6">6</label>
+
+            <input type="radio" name="level_of_supply_7" id="20">
+            <label for="level_of_supply_7">7</label>
+
+            <input type="radio" name="level_of_supply_8" id="21">
+            <label for="level_of_supply_8">8</label>
+
+            <input type="radio" name="level_of_supply_9" id="22">
+            <label for="level_of_supply_9">9</label>
+
+            <input type="radio" name="level_of_supply_10" id="23">
+            <label for="level_of_supply_10">10</label>
+
+            <br>
+
+            <p>W skali od 1 do 10, jak ocenia pan/pani parking sklepowy?</p>
+
+            <input type="radio" name="parking_1" id="24">
+            <label for="parking_1">1</label>
+
+            <input type="radio" name="parking_2" id="25">
+            <label for="parking_2">2</label>
+
+            <input type="radio" name="parking_3" id="26">
+            <label for="parking_3">3</label>
+
+            <input type="radio" name="parking_4" id="27">
+            <label for="parking_4">4</label>
+
+            <input type="radio" name="parking_5" id="28">
+            <label for="parking_5">5</label>
+
+            <input type="radio" name="parking_6" id="29">
+            <label for="parking_6">6</label>
+
+            <input type="radio" name="parking_7" id="30">
+            <label for="parking_7">7</label>
+
+            <input type="radio" name="parking_8" id="31">
+            <label for="parking_8">8</label>
+
+            <input type="radio" name="parking_9" id="32">
+            <label for="parking_9">9</label>
+
+            <input type="radio" name="parking_10" id="33">
+            <label for="parking_10">10</label>
+
+            <br>
+            <br>
+
+            <hr />
+            <div style="position: relative; top: -2.8rem; background-color: white; width: fit-content; padding-right: 15px;">Ocena ekspedienta
+            </div>
+
+            <label for="asked_special">Zostałem/am zapytany/na o ofertę specjalną</label>
+            <input type="checkbox" name="asked_special" id="34">
+
+            <p>Osobista ocena etyki pracy i przyjazności ekspedienta</p>
+            <textarea name="ethics" id="35" cols="300" rows="20"></textarea>
+
+            <br>
+
+            <input type="reset" value="Resetuj">
+            <input type="submit" value="Prześlij">
+
+        </font>
+
+        <br>
+        <br>
+
+        <a href="index.html">Wróć</a>
+
+    </form>
+
+</body>
+
+</html>
